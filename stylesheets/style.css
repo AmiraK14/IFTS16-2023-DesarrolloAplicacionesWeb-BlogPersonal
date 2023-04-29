@@ -1,0 +1,132 @@
+@import url(https://fonts.cdnfonts.com/css/made-gentle);
+
+@import url("../fonts/HTOWERT.TTF");
+
+body {
+    background-image: url("../imagenes/scottishsoftpinkbackground.jpg");
+    padding: 65px
+}
+
+.container {
+    padding: 50px;
+    background-color: #F2EDE6;
+}
+
+
+#imageSection {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center
+}
+
+img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border: #F2EDE6 solid 15px;
+}
+
+
+#mainSection {
+    background-color: #F2EDE6;
+}
+
+
+#tablaInformacion{
+    table-layout: fixed;
+}
+
+.columnaInformacion {
+    border: 1px;
+    word-wrap: break-word
+}
+
+.columnaInformacion h1 {
+    font-size: 90px;
+    font-family: 'MADE Gentle', sans-serif;
+}
+
+.columnaInformacion p {
+    font-family: 'High Tower Text';
+    font-size: 30px;
+}
+
+
+.columnaIzquierda {
+    width: 70%
+}
+
+.columnaIzquierda p {
+    margin-top: 50px;
+}
+
+.columnaIzquierda h2 {
+    margin-left: 195px;
+    margin-top: -20px;
+    font-family: 'High Tower Text';
+    font-size: 30px;
+}
+
+.columnaDerecha {
+    width: 30%;
+    background-color:#000000;
+    color:#fff;
+    border: grey solid 10px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.columnaDerecha h2 {
+    font-family: 'High Tower Text';
+    font-size: 30px;
+}
+
+.columnaDerecha p {
+    padding-top: 10px;
+}
+
+#titleList {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'High Tower Text';
+    font-size: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+  
+footer p {
+    margin-bottom: 10px;
+}
+  
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 70px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  

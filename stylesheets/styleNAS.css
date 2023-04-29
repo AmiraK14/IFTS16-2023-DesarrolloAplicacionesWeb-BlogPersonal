@@ -1,0 +1,103 @@
+@import url(https://fonts.cdnfonts.com/css/made-gentle);
+
+@import url("../fonts/HTOWERT.TTF");
+
+body {
+    background-image: url("../imagenes/scottishsoftpinkbackground.jpg");
+    padding: 65px
+}
+
+.container {
+    padding: 50px;
+    background-color: #F2EDE6;
+}
+
+#mainSection {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center
+}
+
+#tablaInformacion, #tablaFotos{
+    border-spacing: 60px;
+    width: 100%
+}
+
+  
+.description {
+    padding: 15px;
+    text-align: center;
+    background-color:#eadcde;
+    border: solid rgba(0,0,0,0.9) 2px;
+}
+
+
+.columnasTablaContenedora {
+    border: solid rgba(0,0,0,0.9) 2px;
+    border-radius: 10px;
+    width: 60%
+}
+
+.columnasTablaContenedora h1 {
+    font-size: 50px;
+    font-family: 'MADE Gentle', sans-serif;
+}
+
+
+img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border: solid #252525 2px;
+    outline-style: dotted;
+    outline-color: #252525;
+    transition: width 2s;
+}
+
+.columnasTablaFotos:hover {
+    width:100%
+}
+
+img:hover{
+    width: 100%;
+    height: 100%;
+}
+
+
+#columnaDerecha {
+    background-color: rgba(0,0,0,0.9);
+    border: 5px;
+    border-radius: 0px;
+    offset: 10px;
+    color:#F2EDE6;
+}
+
+#columnaDerecha h1 {
+    background-color:rgba(0,0,0,0.9);
+}
+
+a {
+    color: #F2EDE6;
+    text-decoration: none;
+}
+
+
+#columnaDerecha ul {
+    background: rgba(0,0,0,0.9);
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+}
+  
+#columnaDerecha ul li {
+    background: #252525;
+    margin: 10px;
+    padding: 30px;
+    font-family: 'High Tower Text';
+    font-size: 25px;
+}
+
+#columnaDerecha ul li:hover {
+    background-color: #DCA0A8
+}

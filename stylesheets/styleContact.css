@@ -1,0 +1,67 @@
+@import url(https://fonts.cdnfonts.com/css/made-gentle);
+
+@import url("../fonts/HTOWERT.TTF");
+
+body {
+    background-image: url("../imagenes/scottishsoftpinkbackground.jpg");
+    padding: 65px
+}
+
+.container {
+    padding: 50px;
+    background-color: #F2EDE6;
+}
+
+#mainSection {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center
+}
+
+#formSection {
+  border: solid black 15px;
+  border-style: double;
+  border-radius: 5px;
+  padding: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+#formSection h1 {
+  font-size: 50px;
+  font-family: 'MADE Gentle', sans-serif;
+  text-align: center;
+}
+
+#formSection form {
+  margin-top: 30px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #d9a2a8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+input[type=submit]:hover {
+  background-color: #7C2621;
+}
+
+label {
+  font-family: 'High Tower Text';
+}
+  
